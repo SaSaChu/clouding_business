@@ -1,0 +1,110 @@
+@import "bootstrap/bootstrap";
+@import "Ginkgo";
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-weight: 500;
+  font-family:'Roboto', 'Noto Sans TC', "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+  background-color: #e2f0f7;
+}
+
+
+// color
+.businessBg {
+  background-color: #e2f0f7;
+}
+
+
+
+// boot
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+
+
+// block
+
+
+
+
+// boxs
+.bigBoxsCent {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.fullBoxs {
+  display: inline-block;
+  width: 100%;
+}
+
+.centBoxs {
+  display: inline-block;
+  width: 100%;
+  margin-top: -150px;
+  @include border-radius(20px);
+  background-color: white;
+  padding: 20px;
+  @include box-shadow(0px 7px 29px 0px rgba(100, 100, 111, 0.2));
+
+  &.nomt {
+    margin-top: 0;
+  }
+}
+
+.boxs680 {
+  // display: inline-block;
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.boxs915 {
+  // display: inline-block;
+  width: 100%;
+  max-width: 915px;
+  margin: 0 auto;
+}
+
+
+
+// other
+.borderBig {
+  border: 20px solid #dae8f0;
+  @include border-radius(40px);
+}
+
+ .avatar-m {
+   height: 5rem;
+   width: 5rem; 
+}
+
+
+
+// link
+a {
+  outline: 0;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
